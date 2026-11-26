@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "cert_id": "C01",
+      "N": 16,
+      "K": 2,
+      "R": 1,
+      "full_dist_lb": 256,
+      "gap_dist_lb": 64.0,
+      "padded_facets": 40
+    },
+    {
+      "cert_id": "C02",
+      "N": 32,
+      "K": 3,
+      "R": 2,
+      "full_dist_lb": 65536,
+      "gap_dist_lb": 16384.0,
+      "padded_facets": 100
+    },
+    {
+      "cert_id": "C03",
+      "N": 64,
+      "K": 4,
+      "R": 3,
+      "full_dist_lb": 50331648,
+      "gap_dist_lb": 6291456.0,
+      "padded_facets": 300
+    },
+    {
+      "cert_id": "C04",
+      "N": 128,
+      "K": 5,
+      "R": 4,
+      "full_dist_lb": 137438953472,
+      "gap_dist_lb": 8589934592.0,
+      "padded_facets": 768
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+name = "OpenAIHirschDiameter"
+version = "0.1.0"
+defaultTargets = ["OpenAIHirschDiameter"]
+
+[[lean_lib]]
+name = "OpenAIHirschDiameter"
+moreLeanArgs = ["-j", "1"]

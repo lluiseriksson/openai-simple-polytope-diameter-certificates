@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "name": "Pentagon (2D, 5f)",
+      "wedges": 1,
+      "final_d": 3,
+      "final_f": 6,
+      "final_v": 8
+    },
+    {
+      "name": "Hexagon (2D, 6f)",
+      "wedges": 2,
+      "final_d": 4,
+      "final_f": 8,
+      "final_v": 17
+    },
+    {
+      "name": "Heptagon (2D, 7f)",
+      "wedges": 3,
+      "final_d": 5,
+      "final_f": 10,
+      "final_v": 34
+    },
+    {
+      "name": "Pent. Prism (3D, 7f)",
+      "wedges": 1,
+      "final_d": 4,
+      "final_f": 8,
+      "final_v": 16
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "protocol": "HIRSCH-DIAM-CERT-1.0",
+  "certificate_id": "m3_schlegel_prism_3d",
+  "mode": "schlegel_projective_and_prismatoid_cert",
+  "description": "Sec. 14.1 Cor. 14.2 3D prismatoid (3 lateral facets, 6 (U+V)/2 sums, Ds=2)",
+  "payload": {
+    "base_dim_d_minus_1": 2,
+    "T0_vertices": [
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    ],
+    "T1_vertices": [
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    ],
+    "nonbase_facets": [
+      {
+        "a": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "b": [
+          0,
+          1
+        ],
+        "c": [
+          1,
+          1
+        ]
+      },
+      {
+        "a": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "b": [
+          0,
+          1
+        ],
+        "c": [
+          1,
+          1
+        ]
+      },
+      {
+        "a": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "b": [
+          0,
+          1
+        ],
+        "c": [
+          1,
+          1
+        ]
+      }
+    ],
+    "claimed_minkowski_vertex_count": 6,
+    "prismatoid_width_Ds": 2,
+    "claimed_section_dist": 0,
+    "claimed_schlegel_depth": 1
+  }
+}

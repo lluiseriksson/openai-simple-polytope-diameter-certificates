@@ -1,0 +1,85 @@
+{
+  "protocol": "HIRSCH-DIAM-CERT-1.0",
+  "certificate_id": "m4_packing_k3_even_d6",
+  "mode": "symmetric_doubly_stochastic_packing_cert",
+  "description": "Cor. 14.3 two-stage packing (3x3 -> symmetric 6x6 doubly stochastic, max dev 233/130680 < 1/100)",
+  "payload": {
+    "k_dim": 3,
+    "A_matrix": [
+      [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    ],
+    "M_param": [
+      2,
+      1
+    ],
+    "test_x": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "odd_pad": false,
+    "t_smooth": [
+      20,
+      1
+    ],
+    "epsilon_bound": [
+      1,
+      100
+    ],
+    "claimed_d": 6,
+    "claimed_max_dev": [
+      233,
+      130680
+    ]
+  }
+}

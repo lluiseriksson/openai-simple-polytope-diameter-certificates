@@ -1,0 +1,59 @@
+{
+  "protocol": "HIRSCH-DIAM-CERT-1.0",
+  "certificate_id": "m4_packing_k2_odd_d5",
+  "mode": "symmetric_doubly_stochastic_packing_cert",
+  "description": "Cor. 14.3 two-stage packing (2x2 -> symmetric 5x5 doubly stochastic, max dev 4/255 < 1/50)",
+  "payload": {
+    "k_dim": 2,
+    "A_matrix": [
+      [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    ],
+    "M_param": [
+      3,
+      1
+    ],
+    "test_x": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "odd_pad": true,
+    "t_smooth": [
+      10,
+      1
+    ],
+    "epsilon_bound": [
+      1,
+      50
+    ],
+    "claimed_d": 5,
+    "claimed_max_dev": [
+      4,
+      255
+    ]
+  }
+}

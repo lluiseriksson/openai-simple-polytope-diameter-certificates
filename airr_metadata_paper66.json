@@ -1,0 +1,22 @@
+{
+  "title": "Constructive Lean 4 Kernel and Exact Zero-Float Certificates for OpenAI's Superpolynomial Simple Polytope Diameter",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "A November 24, 2026 companion preprint from OpenAI proposes a disproof of the polynomial Hirsch conjecture by constructing rational simple d-polytopes with n facets whose graph diameter (and even subpolynomial s(d)-dimensional face-move distance) exceeds every polynomial in n, alongside corollaries for complementary 2d-facet polytopes, Minkowski sums of two simplices, Schlegel regular triangulations, and symmetric positive doubly-stochastic packing linear programs. Rather than assuming peer-reviewed endorsement of its hierarchical scheduler, blocking-module, or recursive substitution machinery, we deliver an independent, explicitly scoped, zero-floating-point verification companion for its discrete convex-corner bend, prescribed dimension/facet product padding, Klee-Walkup wedge complementary-tip lifting, Schlegel projective prismatoid and middle-section lifting, and two-stage symmetric doubly-stochastic packing mechanisms. Layer 1 (OpenAIHirschDiameter.lean) proves 18 standalone constructive Lean 4.35.0 geometric and algebraic sub-lemmas (zero sorry, zero axiom, zero Classical.choice, zero warnings; 1 none, 1 [propext], and 16 [propext, Quot.sound]). Layer 2 (HIRSCH-DIAM-CERT-1.0) is a pure-stdlib Python int/Fraction 4-mode auditor certifying 16 canonical finite witnesses in 0.092-19.354 ms and rejecting 76/76 live adversarial forgeries with exact branch assertions (82/82 pytest checks).",
+  "primary_subject": "Mathematics",
+  "secondary_subjects": ["Computer and information sciences"],
+  "keywords": [
+    "polynomial Hirsch conjecture",
+    "simple polytope diameter",
+    "Klee-Walkup wedge",
+    "prismatoid Minkowski sum",
+    "Schlegel regular triangulation",
+    "doubly stochastic packing LP",
+    "Lean 4 formal verification",
+    "zero-float certificate verification"
+  ],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repo_url": "https://github.com/lluiseriksson/openai-simple-polytope-diameter-certificates",
+  "release_tag": "v1.0.0",
+  "pdf_relpath": "paper/main.pdf"
+}

@@ -1,0 +1,91 @@
+{
+  "protocol": "HIRSCH-DIAM-CERT-1.0",
+  "certificate_id": "m2_wedge_pentagon_2d_to_3d",
+  "mode": "klee_walkup_wedge_and_complement_cert",
+  "description": "Cor. 14.1 Klee-Walkup wedge (2D/5f -> 3D/6f, 8 simple vertices)",
+  "payload": {
+    "base_dim": 2,
+    "base_normals": [
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "base_rhs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "tip_v_idx": 0,
+    "tip_w_idx": 4,
+    "wedge_facet_sequence": [
+      3
+    ],
+    "claimed_final_dim": 3,
+    "claimed_final_facets": 6,
+    "claimed_final_vertex_count": 8
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "protocol": "HIRSCH-DIAM-CERT-1.0",
+  "count": 16,
+  "certificates": [
+    {
+      "certificate_id": "m1_corners_3_n16_k2",
+      "mode": "convex_corner_bend_and_crossing_cert",
+      "mean_ms": 0.092,
+      "summary": {
+        "mode": "convex_corner_bend_and_crossing_cert",
+        "corners_verified": 3,
+        "interior_breaks": 5,
+        "full_dist_lb": 256,
+        "gap_dist_lb": "64/1",
+        "padded_facets": 40,
+        "certificate_id": "m1_corners_3_n16_k2",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_corners_5_n32_k3",
+      "mode": "convex_corner_bend_and_crossing_cert",
+      "mean_ms": 0.159,
+      "summary": {
+        "mode": "convex_corner_bend_and_crossing_cert",
+        "corners_verified": 5,
+        "interior_breaks": 9,
+        "full_dist_lb": 65536,
+        "gap_dist_lb": "16384/1",
+        "padded_facets": 100,
+        "certificate_id": "m1_corners_5_n32_k3",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_corners_7_n64_k4",
+      "mode": "convex_corner_bend_and_crossing_cert",
+      "mean_ms": 0.239,
+      "summary": {
+        "mode": "convex_corner_bend_and_crossing_cert",
+        "corners_verified": 7,
+        "interior_breaks": 13,
+        "full_dist_lb": 50331648,
+        "gap_dist_lb": "6291456/1",
+        "padded_facets": 300,
+        "certificate_id": "m1_corners_7_n64_k4",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_corners_9_n128_k5",
+      "mode": "convex_corner_bend_and_crossing_cert",
+      "mean_ms": 0.355,
+      "summary": {
+        "mode": "convex_corner_bend_and_crossing_cert",
+        "corners_verified": 9,
+        "interior_breaks": 17,
+        "full_dist_lb": 137438953472,
+        "gap_dist_lb": "8589934592/1",
+        "padded_facets": 768,
+        "certificate_id": "m1_corners_9_n128_k5",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_wedge_pentagon_2d_to_3d",
+      "mode": "klee_walkup_wedge_and_complement_cert",
+      "mean_ms": 1.091,
+      "summary": {
+        "mode": "klee_walkup_wedge_and_complement_cert",
+        "base_dim": 2,
+        "wedges_applied": 1,
+        "final_dim": 3,
+        "final_facets": 6,
+        "final_vertices": 8,
+        "certificate_id": "m2_wedge_pentagon_2d_to_3d",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_wedge_hexagon_2d_to_4d",
+      "mode": "klee_walkup_wedge_and_complement_cert",
+      "mean_ms": 4.404,
+      "summary": {
+        "mode": "klee_walkup_wedge_and_complement_cert",
+        "base_dim": 2,
+        "wedges_applied": 2,
+        "final_dim": 4,
+        "final_facets": 8,
+        "final_vertices": 17,
+        "certificate_id": "m2_wedge_hexagon_2d_to_4d",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_wedge_heptagon_2d_to_5d",
+      "mode": "klee_walkup_wedge_and_complement_cert",
+      "mean_ms": 19.354,
+      "summary": {
+        "mode": "klee_walkup_wedge_and_complement_cert",
+        "base_dim": 2,
+        "wedges_applied": 3,
+        "final_dim": 5,
+        "final_facets": 10,
+        "final_vertices": 34,
+        "certificate_id": "m2_wedge_heptagon_2d_to_5d",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_wedge_prism_3d_to_4d",
+      "mode": "klee_walkup_wedge_and_complement_cert",
+      "mean_ms": 4.341,
+      "summary": {
+        "mode": "klee_walkup_wedge_and_complement_cert",
+        "base_dim": 3,
+        "wedges_applied": 1,
+        "final_dim": 4,
+        "final_facets": 8,
+        "final_vertices": 16,
+        "certificate_id": "m2_wedge_prism_3d_to_4d",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_schlegel_antiprism_3d_fig7",
+      "mode": "schlegel_projective_and_prismatoid_cert",
+      "mean_ms": 0.66,
+      "summary": {
+        "mode": "schlegel_projective_and_prismatoid_cert",
+        "prismatoid_dim": 3,
+        "facets_verified": 6,
+        "minkowski_pair_sums": 9,
+        "actual_width_Ds": 3,
+        "section_dist": 1,
+        "schlegel_depth": 2,
+        "certificate_id": "m3_schlegel_antiprism_3d_fig7",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_schlegel_prism_3d",
+      "mode": "schlegel_projective_and_prismatoid_cert",
+      "mean_ms": 0.43,
+      "summary": {
+        "mode": "schlegel_projective_and_prismatoid_cert",
+        "prismatoid_dim": 3,
+        "facets_verified": 3,
+        "minkowski_pair_sums": 6,
+        "actual_width_Ds": 2,
+        "section_dist": 0,
+        "schlegel_depth": 1,
+        "certificate_id": "m3_schlegel_prism_3d",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_schlegel_antiprism_4d",
+      "mode": "schlegel_projective_and_prismatoid_cert",
+      "mean_ms": 2.407,
+      "summary": {
+        "mode": "schlegel_projective_and_prismatoid_cert",
+        "prismatoid_dim": 4,
+        "facets_verified": 14,
+        "minkowski_pair_sums": 16,
+        "actual_width_Ds": 4,
+        "section_dist": 2,
+        "schlegel_depth": 3,
+        "certificate_id": "m3_schlegel_antiprism_4d",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_schlegel_antiprism_5d",
+      "mode": "schlegel_projective_and_prismatoid_cert",
+      "mean_ms": 8.263,
+      "summary": {
+        "mode": "schlegel_projective_and_prismatoid_cert",
+        "prismatoid_dim": 5,
+        "facets_verified": 30,
+        "minkowski_pair_sums": 25,
+        "actual_width_Ds": 5,
+        "section_dist": 3,
+        "schlegel_depth": 4,
+        "certificate_id": "m3_schlegel_antiprism_5d",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packing_k2_even_d4",
+      "mode": "symmetric_doubly_stochastic_packing_cert",
+      "mean_ms": 0.239,
+      "summary": {
+        "mode": "symmetric_doubly_stochastic_packing_cert",
+        "k_dim": 2,
+        "final_d": 4,
+        "max_dev_from_1_over_d": "17/1120",
+        "certificate_id": "m4_packing_k2_even_d4",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packing_k2_odd_d5",
+      "mode": "symmetric_doubly_stochastic_packing_cert",
+      "mean_ms": 0.295,
+      "summary": {
+        "mode": "symmetric_doubly_stochastic_packing_cert",
+        "k_dim": 2,
+        "final_d": 5,
+        "max_dev_from_1_over_d": "4/255",
+        "certificate_id": "m4_packing_k2_odd_d5",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packing_k3_even_d6",
+      "mode": "symmetric_doubly_stochastic_packing_cert",
+      "mean_ms": 0.471,
+      "summary": {
+        "mode": "symmetric_doubly_stochastic_packing_cert",
+        "k_dim": 3,
+        "final_d": 6,
+        "max_dev_from_1_over_d": "233/130680",
+        "certificate_id": "m4_packing_k3_even_d6",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packing_k4_odd_d9",
+      "mode": "symmetric_doubly_stochastic_packing_cert",
+      "mean_ms": 0.905,
+      "summary": {
+        "mode": "symmetric_doubly_stochastic_packing_cert",
+        "k_dim": 4,
+        "final_d": 9,
+        "max_dev_from_1_over_d": "8/4059",
+        "certificate_id": "m4_packing_k4_odd_d9",
+        "protocol": "HIRSCH-DIAM-CERT-1.0"
+      }
+    }
+  ]
+}
